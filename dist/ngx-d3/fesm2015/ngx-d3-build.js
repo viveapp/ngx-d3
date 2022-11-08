@@ -102,4 +102,4 @@ NgxD3Service.ɵprov = /*@__PURE__*/ i0.ɵɵdefineInjectable({ token: NgxD3Servic
  */
 
 export { NgxD3Service };
-//# sourceMappingURL=ngx-d3.js.map
+//# sourceMappingURL=ngx-d3-build.js.map

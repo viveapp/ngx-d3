@@ -1,5 +1,5 @@
 {
-  "name": "ngx-d3",
+  "name": "ngx-d3-build",
   "version": "12.0.0",
   "dependencies": {
     "tslib": "^2.3.0",
@@ -71,12 +71,12 @@
     "@angular/core": "^12.2.0",
     "typescript": "~4.3.5"
   },
-  "main": "bundles/ngx-d3.umd.js",
-  "module": "fesm2015/ngx-d3.js",
-  "es2015": "fesm2015/ngx-d3.js",
-  "esm2015": "esm2015/ngx-d3.js",
-  "fesm2015": "fesm2015/ngx-d3.js",
-  "typings": "ngx-d3.d.ts",
+  "main": "bundles/ngx-d3-build.umd.js",
+  "module": "fesm2015/ngx-d3-build.js",
+  "es2015": "fesm2015/ngx-d3-build.js",
+  "esm2015": "esm2015/ngx-d3-build.js",
+  "fesm2015": "fesm2015/ngx-d3-build.js",
+  "typings": "ngx-d3-build.d.ts",
   "sideEffects": false,
   "scripts": {
     "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"

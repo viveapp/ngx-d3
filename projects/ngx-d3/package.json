@@ -1,5 +1,5 @@
 {
-  "name": "ngx-d3",
+  "name": "ngx-d3-build",
   "version": "12.0.0",
   "dependencies": {
     "tslib": "^2.3.0",
