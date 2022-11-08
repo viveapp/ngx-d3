@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "postinstall": "npm i --ignore-scripts && npm run build && cd dist/ngx-d3/ && npm install --ignore-scripts"
