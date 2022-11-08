@@ -1,9 +1,6 @@
 {
   "name": "ngx-d3-build",
   "version": "12.0.0",
-  "scripts": {
-    "postinstall": "npm i --ignore-scripts"
-  },
   "dependencies": {
     "tslib": "^2.3.0",
     "@types/d3-array": "1.2",
