@@ -13,8 +13,8 @@
     "downlevelIteration": true,
     "paths": {
       "ngx-d3": [
-        "dist/ngx-d3/ngx-d3",
-        "dist/ngx-d3"
+        "dist/ngx-d3",
+        "dist"
       ]
     },
     "experimentalDecorators": true,
