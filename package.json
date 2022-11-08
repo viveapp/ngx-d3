@@ -7,8 +7,7 @@
     "build": "ng build --prod",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "ignore-install": "npm i --ignore-scripts",
-    "postinstall": "npm run ignore-install && npm run build && cd dist/ngx-d3/ && npm install --ignore-scripts"
+    "postinstall": "npm i --ignore-scripts && npm run build && cd dist/ngx-d3/ && npm install --ignore-scripts"
   },
   "private": true,
   "dependencies": {
@@ -36,7 +35,7 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
-    "ng-packagr": "^12.1.1",
+    "ng-packagr": "12.2.7",
     "typescript": "~4.3.5"
   }
 }
