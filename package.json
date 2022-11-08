@@ -7,7 +7,7 @@
     "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "postinstall": "npm i --ignore-scripts && npm run build && cd dist/ngx-d3/ && npm install --ignore-scripts"
+    "postinstall": "npm i --ignore-scripts && cd projects/ngx-d3 && ng build -c=production && cd ../../dist/ngx-d3/ && npm install --ignore-scripts"
   },
   "private": true,
   "dependencies": {
