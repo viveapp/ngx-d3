@@ -1,1 +1,1 @@
-export * from './dist/ngx-d3';
+export * from './dist';
