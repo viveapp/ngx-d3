@@ -9,6 +9,12 @@
     "test": "ng test",
     "postinstall": "cd dist/ngx-d3 && npm i --ignore-scripts"
   },
+  "main": "bundles/ngx-d3-build.umd.js",
+  "module": "fesm2015/ngx-d3-build.js",
+  "es2015": "fesm2015/ngx-d3-build.js",
+  "esm2015": "esm2015/ngx-d3-build.js",
+  "fesm2015": "fesm2015/ngx-d3-build.js",
+  "typings": "ngx-d3-build.d.ts",
   "private": true,
   "dependencies": {
     "@angular/animations": "~12.2.0",
